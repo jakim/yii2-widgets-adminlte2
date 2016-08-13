@@ -1,0 +1,21 @@
+{
+    "name": "jakim-pj/yii2-widgets-adminlte2",
+    "description": "Set of widgets for AdminLTE2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","adminlte","adminlte2","widgets","infobox","smallbox"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paweł Jakimowski",
+            "email": "pawel@jakimowski.info"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "jakim\\widgets\\": "src/"
+        }
+    }
+}
